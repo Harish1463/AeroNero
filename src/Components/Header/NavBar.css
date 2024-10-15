@@ -1,0 +1,252 @@
+
+.nav-transperant{
+    background-color: #fffffff0; /* This color makes the background Transparent */
+    padding: 0px !important;
+    margin: 0px !important;
+    border: none !important;
+}
+
+.btn{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Container */
+.navbar-container{
+    padding: 0px 100px !important;
+}
+
+/* NavBar Logo */
+.navbar-logo {
+    width: 145px;
+    display: block;
+    position: relative !important;
+    z-index: 1500 !important;
+}
+
+/* Menu Icon */
+.navbar-menu-icon{
+    font-size: 35px;
+    color: #008cd0;
+}
+
+/* Contact button styling */
+.navbar-icon-container {
+    background-color: #008cd0;
+    border: none;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    position: relative;
+    z-index: 1500;
+
+    &:hover{
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+}
+
+/* NavBar Icon */
+.navbar-icon{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 15px !important;
+}
+
+/* Customize the offcanvas menu */
+.offcanvas {
+    background-image: linear-gradient(90deg, #005883 55%, rgba(0, 63, 111, 0.7) 70%, #F2295B00 100%);
+    background-color: transparent !important;
+    border: none !important;
+    width: 90% !important;
+    transition: transform 0.7s ease, opacity 0.7s ease!important;
+}
+
+/* Link and X button Container */
+.offcanvas-start{
+    padding-left: 50px !important;
+}
+
+/* Link Body */
+.offcanvas-body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+
+    position: relative;
+    top: -30px !important;
+}
+
+/* NavBar X Button Container */
+.navbar-close-btn-container{
+    padding-left: 50px !important;
+}
+
+/* NavBar X Button */
+.navbar-close-btn{
+    font-size: 60px;
+    color: #008cd0;
+    
+    transition: 0.5s ease-in-out;
+
+    &:hover{
+        transform: rotate(90deg);
+    }
+}
+
+/* Link Text Container */
+.navbar-link-txt-container{
+    padding-bottom: 10px;
+}
+
+/* Link Text */
+.navbar-link-txt{
+    color: #ffffff !important;
+    font-size: 38px;
+    font-family: "Maven Pro", sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+
+    /* For underline when Hover */
+    position: relative;
+
+    &:hover::after{
+        width: 100%;
+    }
+
+}
+
+/* Underline for Link Text */
+.navbar-link-txt::after{
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    width: 0%;
+    height: 3px !important;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease-in-out;
+}
+
+/* Dropdown text */
+.navbar-dd-txt{
+    color: #ffffff !important;
+    font-size: 30px;
+    font-family: "Maven Pro", sans-serif;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    width: fit-content !important;
+    padding: 0px !important;
+    margin: 0px 0px 10px 0px !important;
+
+    &:hover{
+        background-color: transparent !important;
+    }
+
+     /* For underline when Hover */
+     position: relative;
+
+     &:hover::after{
+         width: 100% !important;
+     }
+}
+
+/* Underline for dropdown Text */
+.navbar-dd-txt::after{
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    width: 0%;
+    height: 2px !important;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s ease-in-out;
+}
+
+/* Active Color [NavLink Default CSS] */
+.active{
+    color: #fef1c2 !important;
+    background-color: transparent !important;
+}
+
+/* Drop Down Button */
+.navbar-dropdoen-btn{
+    margin-left: 20px;
+}
+
+.dropdown{
+    transition: 0.5s ease-in-out !important;
+}
+
+/* Dropdown menu Container */
+.dropdown-menu{
+    background-color: transparent !important;
+    border: none !important;
+    padding-left: 50px !important;
+
+    position: relative !important; 
+    transform: translate3d(0px, 0px, 0px) !important;  
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .navbar-container{
+        padding: 0px 40px !important;
+    }
+
+    /* NavBar Icon */
+    .navbar-icon{
+        font-size: 20px;
+    }
+
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Container */
+    .navbar-container{
+        padding: 0px 20px !important;
+    }
+
+    /* NavBar Logo */
+    .navbar-logo {
+        width: 120px !important;
+        height: fit-content;
+        display: block;
+        position: relative !important;
+        z-index: 1500 !important;
+    }
+
+    /* Customize the offcanvas menu */
+    .offcanvas {
+        background-image: linear-gradient(#005883 100%, #005883 100%, #005883 100%) !important;
+        width: 100% !important;
+    }
+
+    /* Link and X button Container */
+    .offcanvas-start{
+        padding-left: 10px !important;
+    }
+
+    /* NavBar X Button */
+    .navbar-close-btn-container{
+        padding-left: 10px !important;
+    }
+
+    /* NavBar X Button */
+    .navbar-close-btn{
+        font-size: 50px;
+    }
+
+}

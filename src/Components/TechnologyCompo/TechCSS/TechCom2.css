@@ -1,0 +1,149 @@
+/* Container */
+.tech-s2-container{
+    padding: 100px !important;
+}
+
+/* Heading */
+.tech-s2-heading{
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Highlight */
+.tech-s2-highlight{
+    color: #008CD0;
+    font-weight: 600;
+}
+
+/* Paragraph */
+.tech-s2-para{
+    color: #000;
+    text-align: center;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Row */
+.tech-s2-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px !important;
+}
+
+/* Card */
+.tech-s2-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 20px !important;
+    padding: 0 !important;
+}
+
+/* Image Container */
+.tech-s2-img-container{
+    background-color: #e4f6ff;
+    padding: 30px 30px 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
+
+    &:hover{
+        background-color: #fef1c2;
+    }
+}
+
+/* Image */
+.tech-s2-img{
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Small Heading */
+.tech-s2-sm-heading{
+    color: #008CD0;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+}
+
+/* Small Paragraph */
+.tech-s2-sm-para{
+    color: #000;
+    text-align: center;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* TAB view */
+@media screen and (max-width : 992px) {
+    
+    /* Container */
+    .tech-s2-container{
+        padding: 40px !important;
+    }
+
+    /* Heading */
+    .tech-s2-heading{
+        font-size: 32px;
+    }
+
+    /* Paragraph */
+    .tech-s2-para{
+        font-size: 18px;
+    }
+
+    /* Row */
+    .tech-s2-row{
+        justify-content: space-between;
+    }
+
+    /* Card */
+    .tech-s2-card{
+        margin: 0 !important;
+    }
+
+    /* Small Heading */
+    .tech-s2-sm-heading{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width : 767px) {
+    
+    /* Container */
+    .tech-s2-container{
+        padding: 20px !important;
+    }
+
+    /* Image Container */
+    .tech-s2-img-container{
+        padding: 20px 0px 0px 0px;
+    }
+
+    /* Image */
+    .tech-s2-img{
+        max-width: 15%;
+    }
+
+    /* Small Heading */
+    .tech-s2-sm-heading{
+        font-size: 18px;
+    }
+}

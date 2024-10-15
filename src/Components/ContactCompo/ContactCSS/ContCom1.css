@@ -1,0 +1,134 @@
+/* Container */
+.cont-s1-container{
+    padding: 0px 100px !important;
+    text-align: center;
+}
+
+/* Container Inside */
+.cont-s1-container-inside{
+    padding: 100px 0px !important;
+    margin: 0px 27px !important;
+}
+
+/* Heading */
+.cont-s1-heading{
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+.cont-s1-para{
+    color: #000;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+/* Info Container Outside */
+.cont-s1-info-container-outside{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact Info Container */
+.cont-s1-info-container{
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+/* Contact Icon */
+.cont-s1-icon{
+    font-size: 35px;
+    color: #008cd0;
+    margin-right: 10px;
+}
+
+/* Contact Info */
+.cont-s1-info{
+    color: #008cd0;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+/* Social Media Container */
+.cont-s1-social-container{
+    margin-top: 50px;
+}
+
+/* Social Media Icon Container */
+.cont-s1-social-icon-container{
+    text-decoration: none;
+}
+
+/* Social Media Icon */
+.cont-s1-social{
+    color: #008cd099;
+    font-size: 35px;
+    padding: 0px 10px;
+    transition: 0.5s ease;
+
+    &:hover{
+        opacity: 0.9;
+    }
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .cont-s1-container{
+        padding: 0px 40px !important;
+    }
+
+    /* Container Inside */
+    .cont-s1-container-inside{
+        padding: 40px 0px !important;
+        margin: 0px !important;
+    }
+
+    /* Heading */
+    .cont-s1-heading{
+        font-size: 36px;
+    }
+
+    /* Paragraph */
+    .cont-s1-para{
+        font-size: 18px;
+    }
+
+    /* Contact Icon */
+    .cont-s1-icon{
+        font-size: 30px;
+    }
+
+    /* Contact Info */
+    .cont-s1-info{
+        font-size: 18px;
+    }
+
+    /* Social Media Icon */
+    .cont-s1-social{
+        font-size: 28px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Container */
+    .cont-s1-container{
+        padding: 0px 20px !important;
+    }
+
+    /* Container Inside */
+    .cont-s1-container-inside{
+        padding: 50px 0px !important;
+    }
+}

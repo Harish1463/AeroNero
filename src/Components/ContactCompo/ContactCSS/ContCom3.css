@@ -1,0 +1,38 @@
+/* Copyright Container */
+.cont-s3-cpy-container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around !important;
+    padding: 16px 40px !important;
+}
+
+/* Image */
+.cont-s3-img{
+    width: 145px;
+    height: 63px;
+}
+
+/* Copyright Text */
+.cont-s3-cpy-txt{
+    color: #333333;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0px;
+    /* padding: 10px; */
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Copyright Container */
+    .cont-s3-cpy-container{
+        padding: 0px 15px !important;
+    }
+
+    /* Copyright Text */
+    .cont-s3-cpy-txt{
+        font-size: 16px;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,130 @@
+
+/* Heading */
+.tech-s3-heading{
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Highlight */
+.tech-s3-highlight{
+    color: #008CD0;
+    font-weight: 600;
+}
+
+/* Box Container */
+.tech-s3-box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.tech-s3-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #008CD0;
+    border-radius: 30px;
+    padding: 0px !important;
+    background-color: #f1faff;
+}
+
+/* Column1 */
+.tech-s3-box-c1{
+    padding: 50px 0px 50px 50px !important;
+    margin: 0px !important;
+}
+
+/* Image */
+.tech-s3-img{
+    width: auto;
+    height: 40vh;
+    object-fit: cover;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius: 30px;
+}
+
+/* Paragraph */
+.tech-s3-para{
+    color: #000;
+    text-align: left;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px !important;
+}
+
+/* Button */
+.tech-s3-btn{
+    text-decoration: none;
+    background-color: #008CD0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+    padding: 15px 25px;
+}
+
+/* TAB view */
+@media screen and (max-width : 992px) {
+
+    /* Container */
+    .tech-s3-container{
+        padding: 0px 40px !important;
+    }
+
+    /* Heading */
+    .tech-s3-heading{
+        font-size: 32px;
+    }
+    
+    /* Column1 */
+    .tech-s3-box-c1{
+        padding: 20px 0px 20px 20px !important;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+
+    /* Container */
+    .tech-s3-container{
+        padding: 0px 40px !important;
+    }
+    
+    .tech-s3-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Column1 */
+    .tech-s3-box-c1{
+        padding: 20px !important;
+    }
+
+    /* Image */
+    .tech-s3-img{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    /* Paragraph */
+    .tech-s3-para{
+        text-align: center;
+    }
+
+    /* Button Container */
+    .tech-s3-btn-container{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}

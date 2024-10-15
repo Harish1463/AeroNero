@@ -1,0 +1,123 @@
+/* Container */
+.home-s15-container{
+    padding: 100px 0px !important;
+}
+
+/* Slider Container */
+.home-s15-container{
+    padding-left: 15px !important;
+}
+
+/* Heading */
+.home-s15-heading{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Highlight */
+.home-s15-highlight{
+    color: #008CD0;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+}
+
+/* Image Container */
+.home-s15-img-container{
+    position: relative;
+}
+
+/* Image Container Inside */
+.home-s15-img-container-inside{
+    width: 450px !important;
+    height: 350px !important;
+    
+}
+
+/* Link */
+.home-s15-img-link{
+    text-decoration: none;
+}
+
+/* Image */
+.home-s15-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Icon Container */
+.home-s15-icon-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Icon */
+.home-s15-icon{
+    font-size: 100px;
+    color: #ffffff;
+    cursor: pointer;
+    filter : drop-shadow(1px 0 6px rgba(0,0,0,.3));
+}
+
+/* Change The Color of the Dots in Slider */
+.slick-dots li.slick-active button:before {
+    color: #008CD0 !important;
+    
+}
+
+/* Change The Size of the Dots in Slider  */
+.slick-dots li button:before{
+    font-size: 9px !important;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+
+    /* Container */
+    .home-s15-container{
+        padding: 50px 0px !important;
+    }
+
+    /* Slider Container */
+    .home-s15-container{
+        padding-left: 5px !important;
+        margin-bottom: 50px;
+    }
+    
+    /* Heading */
+    .home-s15-heading{
+        font-size: 32px;
+    }
+
+    /* Image Container */
+    .home-s15-img-container{
+        width: 395px !important;
+        height: 270px !important;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width :767px) {
+
+    /* Container */
+    .home-s15-container{
+        padding: 30px 0px !important;
+    }
+
+    /* Slider Container */
+    .home-s15-container{
+        padding-left: 0px !important;
+    }
+    
+    /* Image Container */
+    .home-s15-img-container{
+        width: 500px;
+        height: 250px;
+    }
+}

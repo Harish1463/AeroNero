@@ -1,0 +1,228 @@
+/* Container */
+.sub-s1-container{
+    position: relative;
+    padding: 0px !important;
+}
+
+/* Background Image */
+.sub-s1-background{
+    width: 100%;
+    height: 100%;
+}
+
+/* Row Container */
+.sub-s1-row-container-outside{
+    position: absolute;
+    top: 0;
+    padding: 100px 0px 0px 100px !important;
+    margin: 0px !important;
+}
+
+/* ----------------------------------Column 1-------------------------------------- */
+
+/* Container */
+.sub-s1-c1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Heading Container */
+.sub-s1-heading-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Heading */
+.sub-s1-heading{
+    color: #ffcb04;
+    font-family: "Poppins", Sans-serif;
+    font-size: 76px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+/* Heading Image */
+.sub-s1-head-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Paragraph 1 */
+.sub-s1-para1{
+    text-align: left;
+    color: #fff;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* Paragraph 2 */
+.sub-s1-para2{
+    text-align: left;
+    color: #fff;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.sub-s1-btn{
+    text-decoration: none;
+    background-color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #008cd0;
+    border-radius: 10px;
+    padding: 15px 35px;
+}
+
+/* ---------------------Column 2------------------------------------ */
+
+/* Container */
+.sub-s1-c2-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Image */
+.sub-s1-c2-img{
+    width: auto;
+    height: auto;
+}
+
+/* ----------------------------Column 3------------------------------------ */
+
+/* Container */
+.sub-s1-c3-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 0 !important;
+}
+
+/* Image */
+.sub-s1-c3-img{
+    width: auto;
+    height: auto;
+}
+
+/* -------------------------------Media Querry-------------------------------------- */
+
+/* LAPTOP view */
+@media screen and (max-width: 1024px) {
+    
+    /* Row Container */
+    .sub-s1-row-container-outside{
+        position: absolute;
+        top: 0;
+        padding: 100px 0px 0px 50px !important;
+        margin: 0px !important;
+    }
+
+    /* Image */
+    .sub-s1-c2-img{
+        height: 80vh;
+    }
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Row Container */
+    .sub-s1-row-container-outside{
+        padding: 50px 0px 0px 50px !important;
+    }
+
+    /* Heading */
+    .sub-s1-heading{
+        font-size: 60px;
+    }
+    
+    /* Paragraph 1 */
+    .sub-s1-para1{
+        font-size: 18px;
+    }
+
+    /* Paragraph 2 */
+    .sub-s1-para2{
+        font-size: 18px;
+    }
+
+    /* Image */
+    .sub-s1-c2-img{
+        height: 60vh;
+    }
+
+    /* Container */
+    .sub-s1-c3-container{
+        justify-content: center;
+        padding: 0px !important;
+    }
+
+    /* Image */
+    .sub-s1-c3-img{
+        width: auto;
+        height: 400px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+
+    /* Background Image */
+    .sub-s1-background{
+        width: 100%;
+        min-height: 135vh;
+    }
+    
+    /* Row Container */
+    .sub-s1-row-container-outside{
+        padding: 40px 0px 0px 20px !important;
+    }
+
+    /* Heading */
+    .sub-s1-heading{
+        font-size: 54px;
+    }
+
+    /* Heading Image */
+    .sub-s1-head-img{
+        width: 70% !important;
+        height: 70% !important;
+        padding-bottom: 8px;
+    }
+
+    /* Paragraph 1 */
+    .sub-s1-para1{
+        text-align: center;
+    }
+
+    /* Paragraph 2 */
+    .sub-s1-para2{
+        text-align: center;
+    }
+
+    /* Container */
+    .sub-s1-c2-container{
+        padding-top: 50px;
+    }
+
+    /* Image */
+    .sub-s1-c2-img{
+        width: 35vw;
+        max-height: 60vh;
+    }
+
+    /* Container */
+    .sub-s1-c3-container{
+        justify-content: start;
+        padding: 0px !important;
+    }
+}

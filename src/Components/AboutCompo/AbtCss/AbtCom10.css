@@ -1,0 +1,52 @@
+/* Container */
+.abt-s10-container{
+    padding: 0px 60px 50px 60px !important;
+}
+
+/* Heading */
+.abt-s10-heading{
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Image Container */
+.abt-s10-img-container{
+    max-width: 90%;
+    height: auto;
+}
+
+/* Image */
+.abt-s10-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* TAB view */
+@media screen and (max-width : 992px) {
+
+    /* Heading */
+    .abt-s10-heading{
+        font-size: 32px;
+    }
+}
+
+/* Arrow Container */
+.abt-s10-arrow-container{
+    border: none;
+    background-color: #fff;
+}
+
+/* Arrow Icon */
+.abt-s10-arrow{
+    font-size: 20px;
+    color: #fff;
+    background-color: #008cd0;
+    padding: 10px 10px !important;
+    border-radius: 50%;
+    margin: 0px 15px !important;
+}
